@@ -114,35 +114,35 @@ products = Product.create([
 
 puts "✅ Products Seeded..."
 
-puts "Seeding Reviews..."
+# puts "Seeding Reviews..."
 
-reviews = Review.create([
-    {
-        comment: "This is an extremely well made t-shirt.  It is comfortable, it's not baggy, it fits just right, and the price is very reasoable.",
-        star_rating: 5,
-        user: users.first,
-        product: products.first
-    },
-    {
-        comment: "These are some of the most high quality dress shoes I have ever seen.  Brazil has always been known for their mastery in leather shoe making.  The only bad thing is getting it here all the way from Brazil, but it definitely was much faster than bringing them from China.",
-        star_rating: 4,
-        user: users.second,
-        product: products.second
-    },
-    {
-        comment: "The communication above all was phenomenal.  It really helps to have someone in your own time zone, as communicating with Chinese suppliers at 2 a.m. was always a hassle.  Also, the product arrived in a very short amount of time, the location and proximity to the border is key.",
-        star_rating: 5,
-        user: users.third,
-        product: products.third
-    },
-    {
-        comment: "I have been buying from this supplier for a very long time now, and they have never let me down.  Communication has always been very prompt and professional, shipping has always been a breeze, and the product has always been perfect.  I do appreciate that the manufacturer does a quality check of every single product that leaves their factory.",
-        star_rating: 5,
-        user: users.first,
-        product: products.fourth
-    }
-])
+# reviews = Review.create([
+#     {
+#         comment: "This is an extremely well made t-shirt.  It is comfortable, it's not baggy, it fits just right, and the price is very reasoable.",
+#         star_rating: 5,
+#         user: users.first,
+#         product: products.first
+#     },
+#     {
+#         comment: "These are some of the most high quality dress shoes I have ever seen.  Brazil has always been known for their mastery in leather shoe making.  The only bad thing is getting it here all the way from Brazil, but it definitely was much faster than bringing them from China.",
+#         star_rating: 4,
+#         user: users.second,
+#         product: products.second
+#     },
+#     {
+#         comment: "The communication above all was phenomenal.  It really helps to have someone in your own time zone, as communicating with Chinese suppliers at 2 a.m. was always a hassle.  Also, the product arrived in a very short amount of time, the location and proximity to the border is key.",
+#         star_rating: 5,
+#         user: users.third,
+#         product: products.third
+#     },
+#     {
+#         comment: "I have been buying from this supplier for a very long time now, and they have never let me down.  Communication has always been very prompt and professional, shipping has always been a breeze, and the product has always been perfect.  I do appreciate that the manufacturer does a quality check of every single product that leaves their factory.",
+#         star_rating: 5,
+#         user: users.first,
+#         product: products.fourth
+#     }
+# ])
 
-puts "✅ Reviews Seeded..."
+# puts "✅ Reviews Seeded..."
 
 puts "Seeding Done ✅"
