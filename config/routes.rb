@@ -5,8 +5,8 @@ Rails.application.routes.draw do
       resources :products, only: [:index, :show]
       resources :companies, only: [:index, :show]
       resources :reviews
-      post '/signup', to: 'users#create'
-		  get '/me', to: 'users#show'
+      post '/signup', to: 'user#create'
+		  get '/me', to: 'user#show'
 
 	    post '/login', to: 'sessions#create'
 		  delete '/logout', to: 'sessions#destroy'
