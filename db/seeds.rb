@@ -1,33 +1,33 @@
 # This file should contain all the record creation needed to seed the database with its default values.
 # The data can then be loaded with the bin/rails db:seed command (or created alongside the database with db:setup).
 
-puts "Seeding Users..."
+# puts "Seeding Users..."
 
-users = User.create([
-    {
-        email: "rodrigo@user.com",
-        username: "rodrigoalba",
-        password: "123",
-        admin: true,
-        image_url: "https://recoletaimages.s3.amazonaws.com/AdobeStock_265136456.jpeg"
-    },
-    {
-        email: "josh@user.com",
-        username: "joshuahawks",
-        password: "123",
-        admin: false,
-        image_url: "https://recoletaimages.s3.amazonaws.com/AdobeStock_304337991.jpeg"
-    },
-    {
-        email: "obie@user.com",
-        username: "obiemunoz",
-        password: "123",
-        admin: false,
-        image_url: "https://recoletaimages.s3.amazonaws.com/AdobeStock_289580289.jpeg"
-    }
-])
+# users = User.create([
+#     {
+#         email: "rodrigo@user.com",
+#         username: "rodrigoalba",
+#         password: "123",
+#         admin: true,
+#         image_url: "https://recoletaimages.s3.amazonaws.com/AdobeStock_265136456.jpeg"
+#     },
+#     {
+#         email: "josh@user.com",
+#         username: "joshuahawks",
+#         password: "123",
+#         admin: false,
+#         image_url: "https://recoletaimages.s3.amazonaws.com/AdobeStock_304337991.jpeg"
+#     },
+#     {
+#         email: "obie@user.com",
+#         username: "obiemunoz",
+#         password: "123",
+#         admin: false,
+#         image_url: "https://recoletaimages.s3.amazonaws.com/AdobeStock_289580289.jpeg"
+#     }
+# ])
 
-puts "✅ Users Seeded..."
+# puts "✅ Users Seeded..."
 
 puts "Seeding Companies..."
 # byebug
